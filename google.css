@@ -1,0 +1,40 @@
+.logo {
+	position: relative;
+	margin: 200px;
+	margin-left:350px;
+}
+#mainlogo {
+	width:10;
+	height:7;
+}
+.navbar {
+    margin-top:-200px; padding:0;
+	float:right;
+
+}
+ul {
+	list-style-type:none;
+}
+li {
+	display:inline;
+	color:blue;
+	text-decoration:underline;
+	padding-left:10px; padding-right:10px;
+}
+#border {
+	position:relative;
+	border:2px solid blue;
+	width:400px; height:25px;
+	margin-bottom:40px;
+	margin-right:250px;
+	padding-left:125px;
+	padding-right:20px;
+
+}
+.footer{
+	clear:both;
+	position:absolute;
+	width:2000px; height:50px;
+	background-color: #ebebeb;
+	padding:0; margin:0;
+}
