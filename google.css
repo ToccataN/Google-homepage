@@ -36,5 +36,22 @@ li {
 	position:absolute;
 	width:2000px; height:50px;
 	background-color: #ebebeb;
-	padding:0; margin:0;
+	padding:0; margin-left:-50px;
+}
+.submit {
+	
+	position:absolute;
+	width:150px;height:50px;
+	display:inline;
+}
+p {
+	border:1px solid black;
+   font-size:20px;
+   font-family:Verdana;
+   background-color: #ebebeb;
+   width:80px;
+   padding:8px; margin-top:0px; margin-left:220px;
+
+
+
 }
