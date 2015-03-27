@@ -23,27 +23,24 @@ li {
 }
 #border {
 	position:relative;
-	border:2px solid blue;
-	width:400px; height:25px;
+	border:1px solid blue;
+	width:200px; height:25px;
 	margin-bottom:40px;
-	margin-right:250px;
-	padding-left:125px;
-	padding-right:20px;
+	margin-right:200px;
+	padding-left:250px;
+	padding-right:50px;
 
 }
 .footer{
 	clear:both;
-	position:absolute;
+	float:none;
+	position:fixed;
 	width:2000px; height:50px;
 	background-color: #ebebeb;
 	padding:0; margin-left:-50px;
+	margin-top:100px;
 }
-.submit {
-	
-	position:absolute;
-	width:150px;height:50px;
-	display:inline;
-}
+
 p {
 	border:1px solid black;
    font-size:20px;
@@ -54,4 +51,25 @@ p {
 
 
 
+}
+img {
+	width:250px;height:90px;
+	margin-left:120px;
+}
+#submit {
+
+	position:absolute;
+	padding-left: 170px;
+}
+table{
+	width: 300px; margin-left:-80px; margin-top:-30px;
+	border-spacing:20px;
+}
+ td {
+	border: 1px solid #ebebda;
+	text-align:center;
+	width:150px; height:25px;
+	background-color: #ebebeb;
+	font-size:12px; font-family:Serif;
+	font-weight:bold;
 }
